@@ -110,6 +110,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\ComposeManager.cpp" />
+    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\ComposeTask.cpp" />
+    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ExecuteThread.cpp" />
+    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ThreadPool.cpp" />
+    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\CaptureManager.cpp" />
+    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\FrameCapture.cpp" />
+    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\RTSPCapture.cpp" />
+    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\VLCRTSPCapture.cpp" />
+    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\RealtimeStitch.cpp" />
+    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stdafx.cpp" />
+    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\MatStitcher.cpp" />
+    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\OpencvStitcher.cpp" />
+    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\StitchManager.cpp" />
+    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\SurfStitcher.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\ComposeManager.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\ComposeTask.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ExecuteThread.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ThreadPool.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ThreadPoolTask.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\CaptureManager.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\FrameCapture.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\RTSPCapture.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\VLCRTSPCapture.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\RS_define.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stdafx.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\MatStitcher.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\OpencvStitcher.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\StitchManager.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\SurfStitcher.h" />
+    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\targetver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
