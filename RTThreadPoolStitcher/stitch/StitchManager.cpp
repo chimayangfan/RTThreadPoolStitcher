@@ -2,6 +2,7 @@
 #include "StitchManager.h"
 #include "OpencvStitcher.h"
 #include "SurfStitcher.h"
+#include "CosiftStitcher.h"
 
 
 //单例实现
@@ -26,7 +27,9 @@ bool StitchManager::initStitchObject(InputArray images)
 	cout << "StitchManager::initStitchObject" << endl;
 	//*
 	//pMS = new  TestStitcher(); //TestStitcher();// SurfStitcher(); //用于测试
-	pMS = new  SurfStitcher();//Surf拼接
+	//pMS = new  SurfStitcher();//Surf拼接
+	//pMS = new OpencvStitcher();//ORB拼接
+	pMS = new CosiftStitcher(images);//Cosift拼接
 	/*/
 	OpencvStitcher *p = new OpencvStitcher();
 	if (p->init(images))

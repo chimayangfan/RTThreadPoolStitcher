@@ -4,6 +4,7 @@
 #include "opencv2/stitching/stitcher.hpp"
 #include "MatStitcher.h"
 #include "RS_define.h"
+
 using namespace cv;
 using namespace std;
 
@@ -20,12 +21,15 @@ public:
 	bool initStitchObject(InputArray images);
 	// 执行合并
 	Stitcher::Status stitch(InputArray images, OutputArray pano);
+	MatStitcher* getMatStitcherPtr() {
+		return this->pMS;
+	}
 
 private:
 	StitchManager();
 	~StitchManager();
 	//用于拼接的对象
-	MatStitcher * pMS;
+	MatStitcher* pMS;
 
 };
 

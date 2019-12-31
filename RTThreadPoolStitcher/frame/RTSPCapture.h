@@ -15,6 +15,7 @@ public:
 	bool RTSPCapture::getFramePushQueue();
 private:
 	cv::VideoCapture cap;
+	int FPS;
 	HANDLE readThread;
 	string url;
 };

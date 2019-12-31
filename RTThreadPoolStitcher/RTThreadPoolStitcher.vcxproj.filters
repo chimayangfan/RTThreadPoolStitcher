@@ -33,102 +33,110 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\CaptureManager.cpp">
-      <Filter>源文件\frame</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\FrameCapture.cpp">
-      <Filter>源文件\frame</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\RTSPCapture.cpp">
-      <Filter>源文件\frame</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\VLCRTSPCapture.cpp">
-      <Filter>源文件\frame</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ExecuteThread.cpp">
-      <Filter>源文件\control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ThreadPool.cpp">
-      <Filter>源文件\control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\ComposeManager.cpp">
-      <Filter>源文件\control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\ComposeTask.cpp">
-      <Filter>源文件\control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\MatStitcher.cpp">
-      <Filter>源文件\stitch</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\OpencvStitcher.cpp">
-      <Filter>源文件\stitch</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\StitchManager.cpp">
-      <Filter>源文件\stitch</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\SurfStitcher.cpp">
-      <Filter>源文件\stitch</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\RealtimeStitch.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stdafx.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\ReadMe.txt">
       <Filter>资源文件</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\CaptureManager.h">
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\control\ComposeManager.h">
+      <Filter>头文件\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\control\ComposeTask.h">
+      <Filter>头文件\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ExecuteThread.h">
+      <Filter>头文件\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ThreadPool.h">
+      <Filter>头文件\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ThreadPoolTask.h">
+      <Filter>头文件\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\CaptureManager.h">
       <Filter>头文件\frame</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\FrameCapture.h">
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\FrameCapture.h">
       <Filter>头文件\frame</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\RTSPCapture.h">
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\RTSPCapture.h">
       <Filter>头文件\frame</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\VLCRTSPCapture.h">
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\VLCRTSPCapture.h">
       <Filter>头文件\frame</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ExecuteThread.h">
-      <Filter>头文件\control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ThreadPool.h">
-      <Filter>头文件\control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ThreadPoolTask.h">
-      <Filter>头文件\control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\ComposeManager.h">
-      <Filter>头文件\control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\control\ComposeTask.h">
-      <Filter>头文件\control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\MatStitcher.h">
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\MatStitcher.h">
       <Filter>头文件\stitch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\OpencvStitcher.h">
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\OpencvStitcher.h">
       <Filter>头文件\stitch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\StitchManager.h">
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\StitchManager.h">
       <Filter>头文件\stitch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\SurfStitcher.h">
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\SurfStitcher.h">
       <Filter>头文件\stitch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\RS_define.h">
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\RS_define.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\stdafx.h">
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Master%27s_thesis\Codes\12.24\RTThreadPoolStitcher\RTThreadPoolStitcher\targetver.h">
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\CosiftStitcher.h">
+      <Filter>头文件\stitch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\control\ComposeManager.cpp">
+      <Filter>源文件\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\control\ComposeTask.cpp">
+      <Filter>源文件\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ExecuteThread.cpp">
+      <Filter>源文件\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\control\threadpool\ThreadPool.cpp">
+      <Filter>源文件\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\CaptureManager.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\FrameCapture.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\RTSPCapture.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\frame\VLCRTSPCapture.cpp">
+      <Filter>源文件\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\MatStitcher.cpp">
+      <Filter>源文件\stitch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\OpencvStitcher.cpp">
+      <Filter>源文件\stitch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\StitchManager.cpp">
+      <Filter>源文件\stitch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\SurfStitcher.cpp">
+      <Filter>源文件\stitch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\RealtimeStitch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\..\..\..\Master%27s_thesis\Modifycodes\RTThreadPoolStitcher\RTThreadPoolStitcher\stitch\CosiftStitcher.cu">
+      <Filter>源文件\stitch</Filter>
+    </CudaCompile>
   </ItemGroup>
 </Project>

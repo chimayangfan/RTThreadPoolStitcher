@@ -4,8 +4,9 @@
 
 RTSPCapture::RTSPCapture(char* rtspURL)
 {
-	url = rtspURL;
-	cap = cv::VideoCapture(rtspURL);
+	this->url = rtspURL;//视频流路径
+	this->cap = cv::VideoCapture(rtspURL);//打开视频流
+	this->FPS = cap.get(CV_CAP_PROP_FPS);//获取帧率(只对本地视频有效)
 	readThread = CreateThread(NULL, 0, readThreadFunc, this, 0, NULL);
 }
 
@@ -30,9 +31,9 @@ bool RTSPCapture::getFramePushQueue()
 		std::cout << "[Error] frame is empty!" << std::endl;
 		return false;
 	}
-	/*
-	cv::imshow(url, frame);
-	cv::waitKey(10);*/
+	
+	//cv::imshow(url, frame);
+	//cv::waitKey(10);
 
 	pushFrame(frame);
 	
@@ -62,6 +63,10 @@ DWORD WINAPI readThreadFunc(LPVOID lpParameter)
 	while (1)
 	{
 		rCap->getFramePushQueue();
+		if (!rCap->getFramePushQueue()) {
+			delete rCap;//读不到帧则退出读线程
+			exit(0);
+		}
 		// 读取本地视频时，需要间隔
 		Sleep(30);
 	}
